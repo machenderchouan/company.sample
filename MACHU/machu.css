@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+:root{
+  --color-primary:#90EE90;
+  --color-secondary:#FF6347;
+  --color-extra:#81AA94;
+
+}
+/* motham body ki */
+*{
+  box-sizing:border-box;
+  margin: 0;
+  padding: 0;
+}
+html,body{
+  font-family: 'open Sans',sans-serif;
+  line-height: 1.4;
+  color: black;
+}
+a{
+  color: black;
+}
+ul{
+  list-style: none;
+}
+p{
+  margin: 5px 0;
+  line-height: 1.7;
+}
+img{
+  max-width: 100%;
+}
+
+
+
+
+/* navbar  */
+.navbar{
+width: 100%;
+height: auto;
+background-color: rgb(240, 243, 245);
+padding: 20px;
+box-shadow: 10px 10px 8px #888888;
+}
+
+
+
+
+/* ippudu manam container lo unna space ne use cheskovali so we use justify content
+dantlo flex lo unna vatini end lo pedthava leda start a leda btween a ani cheptham*/
+.navbar-container{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.navbar-nav-left{
+  flex: 1;
+  margin-left: 20px;
+}
+
+
+
+
+.navbar ul{
+  display: flex;
+  align-items: center;
+}
+
+
+
+.navbar li{
+ margin: 2px 12px;
+ font-weight: bold;
+}
+
+
+
+.navbar a{
+  text-decoration: none;
+  color: black;
+  
+}
+
+
+.navbar a:hover{
+  color: var(--color-primary);
+}
+
+
+.navbar-brand img{
+  width: 50px;
+  height: 50px;
+}
+
+
+.navbar-nav-right img{
+  width: 20px;
+  height: 20px;
+}
+
+
+
+.btn{
+  cursor: pointer;
+  display: inline-block;
+  border: 2px solid black;
+  border-radius: 50px;
+  padding: 7px 12px;
+  text-align: center;
+ 
+}
+
+
+
+.btn-dark-outline:hover{
+background-color: white;
+}
+
+
+
+.btn-dark{
+  background-color: black;
+  color: white;
+}
+
+
+.btn-dark:hover{
+  background-color:cadetblue;
+}
+.reward-box{
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: var(--color-primary);
+  height: 200px;
+  width: auto;
+  box-shadow: 10px 10px 8px #888888;
+ 
+
+
+}
+.reward-box,.work-box1{
+  display:flex;
+justify-items: flex-end;
+  align-items: center;
+}
+
+
+.rewards-pic-left,.work-content-lef{
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  
+}
+.rewards-right{
+  margin-left: 100px;
+  
+}
+
+/*.rewards-pic-left{
+  padding-top: 20px;
+  padding-left: 20px;
+  height: 150px;
+  width: 400px;
+}*/
+.work-box1{
+  margin: 20px 20px 20px 20px;
+  background-color: var(--color-secondary);
+  height: 250px;
+  width: auto;
+  box-shadow: 10px 10px 8px #888888;
+ 
+
+}
+.work-content-right{
+  margin-left: 100px;
+  color: aliceblue;
+}
+.about-box{
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: var(--color-primary);
+  height: 100px;
+  width: auto;
+  box-shadow: 10px 10px 8px #888888;
+ 
+}
+

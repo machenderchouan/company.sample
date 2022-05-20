@@ -1,0 +1,1 @@
+  var note =alert("THIS IS JUST A SAMPLE SITE TO HAVE LOOK AT BASICS");
